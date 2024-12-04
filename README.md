@@ -18,5 +18,4 @@ bash termux_syler.sh
 
 
 
-
-          F.G (HADAA CILAD KU ARAGTID NALA SOO WADAAG)
+##     F.G (HADAA CILAD KU ARAGTID NALA SOO WADAAG)
