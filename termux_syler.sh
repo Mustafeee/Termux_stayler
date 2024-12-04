@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Function-ka Login
+# Login Screen
 clear
-echo -e "\033[1;35mWelcome to POP-SMOKE Tool \033[0m"
+echo -e "\033[1;35mWelcome to POP-SMOKE Terminal \033[0m"
 echo -e "\033[1;33mPlease log in to proceed... \033[0m"
 sleep 1
 
@@ -21,14 +21,17 @@ else
     exit 1
 fi
 
-# ASCII Art and Setup Termux Appearance
+# Customize Termux Appearance with ASCII Art
 clear
 toilet -f slant "CODED BY POP-SMOKE" -F gay
 echo -e "\033[1;36mCustomizing Termux... \033[0m"
 sleep 1
 clear
 
-# Display the Menu
+# Show System Info with Neofetch
+neofetch
+
+# Menu Options
 echo -e "\033[1;34mChoose an option: \033[0m"
 echo -e "\033[1;32m1. Update Termux \033[0m"
 echo -e "\033[1;33m2. Install Tools \033[0m"
